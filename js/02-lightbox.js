@@ -28,7 +28,7 @@ function onGalleryListClick(event) {
   }
   console.log(event.target);
 }
-var lightbox = new SimpleLightbox(".gallery a", {
+const lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionDelay: 250,
 });

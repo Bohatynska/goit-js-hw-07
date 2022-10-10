@@ -45,7 +45,7 @@ function onGalleryListClick(event) {
   );
 
   instance.show();
-  document.addEventListener(onKeyAction);
+
   function onKeyAction({ key }) {
     if (key === "Escape") {
       console.log("click");
